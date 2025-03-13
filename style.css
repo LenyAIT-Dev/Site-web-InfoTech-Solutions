@@ -1,0 +1,284 @@
+/* Reset général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du site */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+	border-radius: 7px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #005bb5;
+}
+
+/* Structure principale */
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+img {
+	border-radius: 8px;
+}
+
+
+/* Styles page d'accueil */
+
+/* Style section d'intro */
+#intro {
+    background-color: #eaf7ff;
+    padding: 30px;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 2.5em;
+    color: #0073e6;
+    margin-bottom: 15px;
+}
+
+#intro p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#intro .intro-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Style section services */
+#services {
+    background-color: #f7f7f7;
+    padding: 30px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2em;
+    color: #0073e6;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#services .service-img img {
+    max-width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Style pour témoignages */
+#temoignages {
+    padding: 30px;
+    text-align: center;
+    background-color: #eaf7ff;
+}
+
+#temoignages h2 {
+    font-size: 2em;
+    color: #0073e6;
+}
+
+#temoignages blockquote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+    font-style: italic;
+}
+
+#temoignages blockquote strong {
+    font-weight: bold;
+}
+
+/* Style section Call-to-action */
+#cta {
+    background-color: #f7f7f7;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+#cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#cta .clicclic {
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #005bb5;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#cta .clicclic:hover {
+    background-color: #003f73;
+    transform: scale(1.1);
+}
+
+
+
+/* Styles pour tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse; /* espaces bordures */
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #0073e6; /* couleur bordures */
+    padding: 10px;
+}
+
+th {
+    background-color: #0073e6; /* Fond en-tête */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* couleur lignes  */
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* changement couleur survol */
+}
+
+
+
+/* Styles listes */
+ul, ol {
+    margin: 20px;
+    padding-left: 30px; 
+    list-style-position: inside; 
+}
+
+li {
+    margin-bottom: 10px; 
+    font-size: 1.1em; 
+    line-height: 1.5; 
+}
+
+/* Pour listes numérotées (ol) */
+ol {
+    list-style-type: decimal; 
+    padding-left: 30px;
+}
+
+/* Pour listes à puces (ul) */
+ul {
+    list-style-type: disc; 
+    padding-left: 30px;
+}
+
+
+/* Personnalisation éléments lorsque survolés */
+li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer; /* Changement curseur au survol */
+}
+
+
+/* cliclic */
+.clicclic {
+    font-size: 1.1em;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.clicclic:hover {
+    color: #005bb5;
+    transform: scale(1.1);
+}
+
+.clicclic:active {
+    color: #003f73;
+}
