@@ -1,4 +1,7 @@
-# InfoTech Solutions
+# InfoTech Solutions 💻
+
+[![Website Status](https://img.shields.io/website-up-down-green-red/http/LenyA-Dev.github.io/InfoTech-Solutions.svg)](https://LenyA-Dev.github.io/InfoTech-Solutions/)
+
 
 ## Description du projet
 
