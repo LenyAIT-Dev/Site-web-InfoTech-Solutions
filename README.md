@@ -1,6 +1,7 @@
 # InfoTech Solutions 💻
 
-[![Website Status](https://img.shields.io/website-up-down-green-red/http/LenyA-Dev.github.io/InfoTech-Solutions.svg)](https://LenyA-Dev.github.io/InfoTech-Solutions/)
+[![Website Status](https://img.shields.io/website-up-down-green-red/http/lenyait-dev.github.io/Site-web-InfoTech-Solutions.svg)](https://lenyait-dev.github.io/Site-web-InfoTech-Solutions/)
+
 
 
 ## Description du projet
@@ -42,7 +43,7 @@ Le site est composé de 5 pages principales :
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)
 
 ## Auteur
-Réalisé par **Lény Ait Ouaret**, élève de terminale STMG, dans le cadre d'un projet de spécialité SIG au lycée.
+Réalisé par **AIT OUARET Lény**, élève de terminale STMG, dans le cadre d'un cours de spécialité SIG au lycée.
 
 ## Lien du site
-[Accéder au site InfoTech Solutions](https://LenyA-Dev.github.io/InfoTech-Solutions/)
+[Accéder au site InfoTech Solutions](https://lenyait-dev.github.io/Site-web-InfoTech-Solutions/)
